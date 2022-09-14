@@ -72,6 +72,7 @@ const gameOver = () => {
   // show result modal
   resultModal.innerHTML = "";
   resultModal.classList.toggle("hidden");
+  // resultModal.classList.toggle("");
   modalBackground.classList.toggle("hidden");
   // clear user text
   display.innerHTML = "";
