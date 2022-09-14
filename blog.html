@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type Master</title>
+    <!-- Bootstrap StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Custom CSS StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="blog-heading">Welcome to Blog Section</h1>
+    <section style="margin-top: 5%; margin-bottom: 5%" class="container blog">
+      <article class="card">
+        <h3 class="text-warning">
+          Difference between <span class="info">localStorage</span> and
+          <span class="info">sessionStorage</span>
+        </h3>
+        <p>
+          sessionStorage is similar to localStorage ; the difference is that
+          while data in localStorage doesn't expire, data in sessionStorage is
+          cleared when the page session ends. Whenever a document is loaded in a
+          particular tab in the browser, a unique page session gets created and
+          assigned to that particular tab.
+        </p>
+      </article>
+      <article class="card">
+        <h3 class="text-warning">
+          How <span class="info">Event Loop</span> works in JS?
+        </h3>
+        <p>
+          The <b>Event Loop</b> has one simple job — to monitor the Call Stack
+          and the Callback Queue. If the Call Stack is empty, the Event Loop
+          will take the first event from the queue and will push it to the Call
+          Stack, which effectively runs it. Such an iteration is called a tick
+          in the Event Loop.
+        </p>
+      </article>
+      <article class="card">
+        <h3 class="text-warning">
+          Difference between <span class="info">Block Scope</span> and
+          <span class="info">Global Scope</span>
+        </h3>
+        <p>
+          In a browser environment, the global scope is controlled by the window
+          object while in Node. js, it's controlled by the global object. Block
+          scopes are what you get when you use if statements, for statements,
+          and the like.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3 class="text-warning">
+          How many ways we can get <span class="info">undefined</span> in JS?
+        </h3>
+        <p>
+          The global <b>undefined</b> property represents the primitive value
+          <b>undefined</b>. It is one of JavaScript's primitive types. We will
+          get <b>undefined</b> value when we call a non-existent property or
+          method of an object.
+        </p>
+      </article>
+    </section>
+
+    <!-- Bootstrap Script -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- JS Scripts -->
+    <script src="./js/history.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
