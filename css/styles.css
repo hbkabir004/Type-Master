@@ -147,9 +147,10 @@ button {
 }
 
 #histories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .card {
@@ -193,5 +194,11 @@ button {
   }
   .card {
     flex-direction: column;
+  }
+
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
